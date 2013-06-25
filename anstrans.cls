@@ -157,7 +157,7 @@
       \vspace{.75\baselineskip}%
 
       %author
-      {\def\and{\!, } \itshape \@author}%
+      {\def\and{\!, } \@author}%
       \vspace{.75\baselineskip}%
 
       %institute (optional?)

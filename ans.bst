@@ -712,6 +712,7 @@ FUNCTION {format.vol.num.pages}
         'skip$
       if$
       swap$
+      emphasize
       ", " swap$ *
     }
   if$ *
