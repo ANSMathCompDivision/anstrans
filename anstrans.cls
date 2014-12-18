@@ -9,6 +9,7 @@
 %  look like 
 %   {Seth R. Johnson \and Edward W. Larsen}
 %
+% v1.1.5: Increasing column separation
 % v1.1.4: Added disclaimer option (thanks to Aaron Bevill)
 % v1.1.3: Improved header behavior
 % v1.1.2: Improved spacing for standards compliance
@@ -28,7 +29,7 @@
 
 \pagestyle{empty}						%no page numbering
 
-\RequirePackage[text={7in,9in},centering]{geometry}
+\RequirePackage[text={7in,9in},centering,columnsep=18pt]{geometry}
 
 % ams math must be loaded before txfonts
 \usepackage{amsmath}
