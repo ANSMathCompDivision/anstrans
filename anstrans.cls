@@ -26,6 +26,7 @@
 
 %%%%%%%%%%% TYPE AND GEOMETRY %%%%%%%%%%%
 \LoadClass[twocolumn,10pt]{article}
+\setlength{\columnsep}{0.5in}
 
 \pagestyle{empty}						%no page numbering
 
