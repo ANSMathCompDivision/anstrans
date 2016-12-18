@@ -180,7 +180,3 @@
   \fi
 }
 
-\AtBeginDocument{%
-  \maketitle%
-}
-
