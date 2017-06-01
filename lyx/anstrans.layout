@@ -1,0 +1,182 @@
+#% Do not delete he line below; configure depends on this
+#  \DeclareLaTeXClass[anstrans]{American Nuclear Society (ANS) Transaction}
+#  \DeclareCategory{Articles}
+# Author : Joel A. Kulesza <jkulesza@gmail.com>
+#
+# American Nuclear Society (ANS) transactions textclass definition file.  This
+# file uses the anstrans.cls created by Seth R. Johnson at
+# http://www.ans.org/pubs/transactions/.
+
+Format 60
+
+Input           stdcounters.inc
+Input           stdfloats.inc
+Input           stdlists.inc
+
+DefaultStyle    Standard
+
+ClassOptions
+  FontSize      10
+end
+
+Style Standard
+  Category      MainText
+  Margin        Static
+  LatexName     Dummy
+  LatexType     Paragraph
+  ParIndent     MM
+  Align         Block
+  AlignPossible Block, Left, Right, Center
+  LabelType     No_Label
+End
+
+################################################################################
+
+Style Title
+  Category      FrontMatter
+  InPreamble    1
+  LabelType     No_Label
+  LatexName     title
+  LatexType     Command
+  Margin        Static
+  ResetArgs     1
+
+  Align         Center
+  BottomSep     1
+  Font
+    Series      Bold
+	  Size        Larger
+  EndFont
+  Preamble
+\AtBeginDocument{\maketitle}
+  EndPreamble
+End
+
+Style Disclaimer_(Optional)
+  Category      FrontMatter
+  InPreamble    1
+  LabelType     No_Label
+  LatexName     disclaimer
+  LatexType     Command
+  Margin        Static
+  ResetArgs     1
+
+  Align         Center
+  BottomSep     1
+  Font
+    Size        Small
+  EndFont
+End
+
+Style Author(s)
+  Category      FrontMatter
+  InPreamble    1
+  LabelType     No_Label
+  LatexName     author
+  LatexType     Command
+  Margin        Static
+  ResetArgs     1
+
+  Align         Center
+  BottomSep     1
+End
+
+Style Institute(s)
+  Category      FrontMatter
+  InPreamble    1
+  LabelType     No_Label
+  LatexName     institute
+  LatexType     Command
+  Margin        Static
+  ResetArgs     1
+
+  Align         Center
+  Font
+    Shape       Italic
+  EndFont
+End
+
+Style Email(s)
+  Category      FrontMatter
+  InPreamble    1
+  LabelType     No_Label
+  LatexName     email
+  LatexType     Command
+  Margin        Static
+  ResetArgs     1
+
+  Align         Center
+  BottomSep     1
+  Font
+    Shape       Italic
+  EndFont
+End
+
+################################################################################
+
+Style Section
+	Category      Sectioning
+  LabelCounter  ""
+  LabelType     No_Label
+	LatexName     section
+	LatexType     Command
+	Margin        Static
+	NeedProtect   1
+	NextNoIndent  False
+  ResetArgs     1
+	TocLevel      1
+	ToggleIndent  Never
+
+	Align         Block
+	ParSkip       0.4
+	BottomSep     0.7
+	ParSep        0.7
+	TopSep        1.3
+	HTMLTag       h1
+	Font
+	  Series      Bold
+	  Shape       SmallCaps
+	  Size        Larger
+	EndFont
+End
+
+Style Subsection
+	CopyStyle     Section
+
+	LabelCounter  subsection
+	LatexName     subsection
+	TocLevel      2
+
+	HTMLTag       h2
+	Font
+	  Series      Bold
+    Shape       Up
+	  Size        Large
+	EndFont
+End
+
+Style Subsubsection
+	CopyStyle     Subsection
+
+	LabelCounter  subsubsection
+	LatexName     subsubsection
+	TocLevel      3
+
+	HTMLTag       h3
+	Font
+	  Shape       Italic
+	EndFont
+End
+
+################################################################################
+
+InsetLayout Flex:Subequations
+  LyxType               custom
+  Decoration            classic
+  LabelString           Subequations
+  LatexType             Environment
+  LatexName             subequations
+  MultiPar              1
+  Requires              amsmath
+End
+

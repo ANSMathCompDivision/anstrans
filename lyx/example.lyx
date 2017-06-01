@@ -1,0 +1,1038 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass anstrans
+\begin_preamble
+\usepackage{graphicx} % allows inclusion of graphics
+\usepackage{booktabs} % nice rules (thick lines) for tables
+\usepackage{microtype} % improves typography for PDF
+ 
+\renewcommand{\vec}[1]{\bm{#1}} %vector is bold italic
+\renewcommand{\hat}[1]{\bm{#1}} %unit vector is bold italic
+\newcommand{\vd}{\bm{\cdot}} % slightly bold vector dot
+\newcommand{\grad}{\vec{\nabla}} % gradient
+\newcommand{\ud}{\mathop{}\!\mathrm{d}} % upright derivative symbol 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+An Improved ANS Transaction Template
+\end_layout
+
+\begin_layout Disclaimer (Optional)
+Notice: this manuscript is a work of fiction.
+ Any resemblance to actual articles, living or dead, is purely coincidental.
+\end_layout
+
+\begin_layout Author(s)
+Seth R.
+ Johnson,
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+∗
+\end_layout
+
+\end_inset
+
+ Joel A.
+ Kulesza
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+†
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Institute(s)
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+∗
+\end_layout
+
+\end_inset
+
+Radiation Transport Group, Oak Ridge National Laboratory, P.O.
+ Box 2008, Oak Ridge, TN 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+†
+\end_layout
+
+\end_inset
+
+Monte Carlo Methods, Codes, and Applications Group, Los Alamos National
+ Laboratory, P.O.
+ Box 1663, Los Alamos, NM
+\end_layout
+
+\begin_layout Email(s)
+sethrj@umich.edu, jkulesza@umich.edu
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+Microsoft Word can be a finicky beastie.
+ \SpecialChar LaTeX
+ abstracts content from formatting, allowing the user to let a style file
+ such as this take care of uppercasing the section headings, spacing the
+ paragraphs, and shuffle around the figures.
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ tempor incididunt ut labore et dolore magna aliqua.
+ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+ ut aliquip ex ea commodo consequat.
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+ eu fugiat nulla pariatur.
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+ deserunt mollit anim id est laborum.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $\textrm{S}_{N}$
+\end_inset
+
+ equations were developed by Carlson 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Car1953"
+
+\end_inset
+
+.
+ Another paper is cited here 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Lar2008"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Theory
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+ Curabitur faucibus erat sed nisi aliquet molestie.
+ Etiam male- suada, sapien at lobortis lacinia, justo ante volutpat nunc,
+ gravida commodo justo purus ut quam.
+ Proin tincidunt sem quis dui condimentum rhoncus.
+ Nulla ut libero est, ut sollic- itudin ligula.
+ Curabitur quam orci, aliquet dignissim feugiat eu, porta ac leo.
+ Aenean in ipsum arcu.
+ Duis tempus porttitor turpis, eu volutpat odio fringilla sit amet.
+ Donec malesuada, arcu id porttitor mattis, arcu est molestie arcu, quis
+ dignissim tellus justo nec sapien.
+ Praesent pretium interdum odio ac varius.
+ Suspendisse dui mauris, posuere in varius a, semper id dui.
+ Suspendisse placerat, quam quis luctus aliquam, metus justo hendrerit massa,
+ vel tempus ligula sem et purus.
+ 
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+ Curabitur faucibus erat sed nisi aliquet molestie.
+\end_layout
+
+\begin_layout Standard
+Equations look exceedingly pretty.
+ Here is a 3-D, monoenergetic, steady-state transport equation with isotropic
+ scattering and an isotropic extraneous source:
+\begin_inset Flex Subequations
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{multline}
+\hat{\Omega}\cdot\vec{\nabla}\psi\left(\vec{x},\hat{\Omega}\right)+\sigma\left(\vec{x}\right)\psi\left(\vec{x},\hat{\Omega}\right)\\
+=\frac{\sigma_{s}\left(\vec{x}\right)}{4\pi}\int_{4\pi}\psi\left(\vec{x},\hat{\Omega}'\right)d\Omega'+\frac{q\left(\vec{x}\right)}{4\pi}\equiv\frac{1}{4\pi}Q\left(x\right),
+\end{multline}
+
+\end_inset
+
+inside 
+\begin_inset Formula $\vec{x}\in V$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{\Omega}\in4\pi$
+\end_inset
+
+, with an incident boundary condition
+\begin_inset Formula 
+\begin{equation}
+\psi\left(\vec{x},\hat{\Omega}\right)=\psi^{b}\left(\vec{x},\hat{\Omega}\right),\quad\vec{x}\in\partial V,\,\hat{\Omega}\cdot\hat{n}<0.
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Results and Analysis
+\end_layout
+
+\begin_layout Standard
+The results were interesting, so interesting in fact that we have decided
+ to present them here.
+\end_layout
+
+\begin_layout Subsection
+Subsection Goes Here
+\end_layout
+
+\begin_layout Standard
+The user must manually capitalize initial letters of a sub- section heading.
+\end_layout
+
+\begin_layout Standard
+For those who like equations in their papers, \SpecialChar LaTeX
+ is a good choice.
+ Here is an equation for the Marshak diffusion boundary condition:
+\begin_inset Formula 
+\begin{equation}
+4J^{-}=\phi+2D\hat{n}\cdot\vec{\nabla}\phi.\label{eq:marshak}
+\end{equation}
+
+\end_inset
+
+If we so choose, we can effortlessly reference the equation later.
+ 
+\end_layout
+
+\begin_layout Standard
+Another paragraph starts with Eq.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:marshak"
+
+\end_inset
+
+ and sets 
+\begin_inset Formula $J^{−}$
+\end_inset
+
+ to zero, a vacuum boundary condition:
+\begin_inset Formula 
+\begin{equation}
+0=\phi+\frac{2}{3}\frac{1}{\sigma}\hat{n}\cdot\vec{\nabla}\phi.
+\end{equation}
+
+\end_inset
+
+The extrapolation distance is 2/3.
+ A more detailed asymptotic analysis yields an extrapolation distance of
+ about 0.71045.
+\end_layout
+
+\begin_layout Standard
+Figure 1 shows how a plot might conceivably look in your document.
+ Always place figures after they are referenced so as not to throw off the
+ reader.
+ You can use symbols and different line styles to help differentiate your
+ results, especially if they are printed in black and white.
+ Note how Fig.
+ 1 uses dashed lines -- for the exact solution, solid lines - for the new
+ method’s solutions, and dotted lines : for existing inaccurate methods.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename example_figure.pdf
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Captions are flush with the left.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:voltage"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Later on, we can include a table, even one that spans two columns such as
+ Table I.
+ 
+\begin_inset Float table
+placement tbh
+wide true
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="10">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\phi_{T}\left(0\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\phi_{T}\left(10\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\phi_{T}\left(20\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\phi_{D}\left(0\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\phi_{T}\left(10\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\phi_{T}\left(20\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\rho$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\epsilon$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $N_{\textrm{it}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c=0.999$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.9038
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20.63
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+31.24
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.9087
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20.63
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+31.23
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.2192
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $10^{-7}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c=0.990$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.3675
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13.04
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+24.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.3696
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13.04
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+24.69
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.2184
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $10^{-7}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c=0.900$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.009909
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.776
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17.64
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.009984
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.786
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17.63
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.2118
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $10^{-7}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c=0.500$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $6.069\times10^{-5}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.212
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15.53
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $6.213\times10^{-5}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.239
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15.53
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.2068
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $10^{-7}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+This is an example of a really wide table which might not normally fit in
+ the document.
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:widetable"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Notice how the table reference uses a Roman numeral for its numbering scheme,
+ whereas the figure reference uses an Arabic numeral.
+ For one-column tables, use the table environment; two-column tables use
+ table*.
+ The same applies to figures.
+\end_layout
+
+\begin_layout Subsection
+Another Subsection
+\end_layout
+
+\begin_layout Standard
+Excessive sectioning in a three-page document is discouraged, but here are
+ more subsections to demonstrate compliance with the ANS formatting guidelines.
+\end_layout
+
+\begin_layout Subsubsection
+Third-level Heading
+\end_layout
+
+\begin_layout Standard
+This subsubsection shows compliance with the ANS-specified standard.
+ This level of heading should be used rarely.
+\end_layout
+
+\begin_layout Subsubsection
+Another Such Heading
+\end_layout
+
+\begin_layout Standard
+And, if you really think you need a third-level heading, you should make
+ sure that your subsection needs at least two of them.
+\end_layout
+
+\begin_layout Section
+Conclusions
+\end_layout
+
+\begin_layout Standard
+The included ANS style file and this clear example file are a panacea for
+ the hours of headache that invariably results from formatting a document
+ in Microsoft Word.
+\end_layout
+
+\begin_layout Section
+\start_of_appendix
+Appendix
+\end_layout
+
+\begin_layout Standard
+Numbering in the appendix is different:
+\begin_inset Formula 
+\begin{equation}
+2+2=5
+\end{equation}
+
+\end_inset
+
+and another equation:
+\begin_inset Formula 
+\begin{equation}
+a+b=c.
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Acknowledgements
+\end_layout
+
+\begin_layout Standard
+This material is based upon work supported by the Department of Energy National
+ Nuclear Security Administration (NNSA) under Award Number(s) DE-NA0002576
+ and in part by the NNSA Office of Defense Nuclear Nonproliferation R&D
+ through the Consortium for Nonproliferation Enabling Capabilities.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "bibliography"
+options "ans"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
