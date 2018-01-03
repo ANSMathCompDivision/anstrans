@@ -1,28 +1,19 @@
 %  American Nuclear Society Transaction template
 %  by Seth R. Johnson, based on the ANS transaction guidelines
 %
-% For further updates, see http://reference-man.com/projects.html#anstemplate
+% This class lives at the git repository https://github.com/sethrj/anstrans
+%
+% See also http://reference-man.com/projects.html#anstemplate
 %
 % Usage: \documentclass{anstrans}
 %  Define \title and \author as usual, and also define \institute and \email .
 %  For two-column tables, use the table* environment. Multiple authors should
 %  look like 
 %   {Seth R. Johnson \and Edward W. Larsen}
-%
-% v1.1.5: Increasing column separation
-% v1.1.4: Added disclaimer option (thanks to Aaron Bevill)
-% v1.1.3: Improved header behavior
-% v1.1.2: Improved spacing for standards compliance
-%         now commas separate author names
-%         Added support for proper equation numbering in appendices
-% v1.1.1: Figure and table captions are now flush with the left as the
-%         standards specify. Now uses the ``txfonts'' package for much improved
-%         Times-compatible math font.
-%
 
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
 
-\ProvidesClass{anstrans}[2011/06/07 v1.1.4 ANS Transaction class]
+\ProvidesClass{anstrans}[2018/01/01 ANS Transaction class]
 
 %%%%%%%%%%% TYPE AND GEOMETRY %%%%%%%%%%%
 \LoadClass[twocolumn,10pt]{article}
