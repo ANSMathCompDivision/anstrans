@@ -21,6 +21,7 @@
 \pagestyle{empty}						%no page numbering
 
 \RequirePackage[text={7in,9in},centering,columnsep=18pt]{geometry}
+\RequirePackage{fancyhdr}
 
 % ams math must be loaded before txfonts
 \usepackage{amsmath}
@@ -29,6 +30,15 @@
 \RequirePackage{txfonts}
 % bold math must be loaded after Times font
 \usepackage{bm}
+
+%%%%%%%%%%% TITLE PAGE FORMAT %%%%%%%%%%%
+\fancypagestyle{firstpage}{
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0.5pt}
+    \rhead{}
+    \cfoot{}
+    \lfoot{\footnotesize \@disclaimer}
+}
 
 %%%%%%%%%%% INCLUDE PACKAGES %%%%%%%%%%%
 \RequirePackage{cuted} % defines 'strip' environment for single column
@@ -167,7 +177,7 @@
 
   %disclaimer
   \if@disclaimerdefined%
-  {\footnotetext[1]{\footnotesize \@disclaimer}}%
+    \thispagestyle{firstpage}
   \fi
 }
 
