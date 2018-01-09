@@ -155,7 +155,7 @@
   \begin{strip}%
     \centering%
       %title
-      {\bf \@title\if@disclaimerdefined{\footnotemark[1]{}}\fi}
+      {\bf \@title}
       \vspace{.75\baselineskip}%
 
       %author
