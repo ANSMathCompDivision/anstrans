@@ -191,6 +191,22 @@ key "Lar2008"
 \end_inset
 
 .
+ Related equations are discussed here 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Lar1996"
+
+\end_inset
+
+.
+ A paper with lots of authors is 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Article_2012_NT_GoorleyJamesEtAl_298--315"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
